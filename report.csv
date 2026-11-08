@@ -1,0 +1,7 @@
+severity,rule,mitre,time,ip,event
+HIGH,Root account used,T1078.004,2026-10-01T03:12:00Z,203.0.113.5,ConsoleLogin
+HIGH,Failed login followed by new access key,T1110 + T1098.001,2026-10-01T04:00:00Z,198.51.100.7,CreateAccessKey
+HIGH,Failed login followed by new access key,T1110 + T1098.001,2026-10-01T04:00:00Z,198.51.100.7,CreateAccessKey
+HIGH,Failed login followed by new access key,T1110 + T1098.001,2026-10-01T04:00:00Z,198.51.100.7,CreateAccessKey
+MEDIUM,Failed console login,T1110,2026-10-01T03:15:00Z,198.51.100.7,ConsoleLogin
+MEDIUM,New access key created,T1098.001,2026-10-01T04:00:00Z,198.51.100.7,CreateAccessKey
